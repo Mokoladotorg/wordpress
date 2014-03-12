@@ -1,0 +1,425 @@
+/*
+Theme Name: Child Slider for 2013
+Theme URI: http://mokola.org
+Author: Tibor Kanyadi 
+Author URI: http://mokola.org/
+Description: slider for 2013 theme
+Version: 1.0
+License: GNU General Public License 
+Tags: slider, flexible, responsive 
+Template: twentythirteen
+*/
+@import url('../twentythirteen/style.css');
+a.backToTop {
+    width:40px;
+    height:47px;
+    opacity:0.5;
+    position:fixed;
+    bottom:5px;
+    right: 1%;
+    display:none;
+    text-indent:-10000px;
+    outline:none ;
+    background-image: url(images/icon_top.png);
+    background-repeat: no-repeat;
+}
+.sidebar .site-footer .flexible-widget-area {
+	max-width: 1040px;
+	left: 0;
+}
+
+/* Flexible widget areas - number of widgets per row (1, 2, 3 or 4) changes depending on number of widgets used */
+.flexible-widget-area .widget {
+	margin: 20px 0;
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+}
+.flexible-widget-area.widget-count-1 .widget {
+	padding: 0;
+}
+/* Two per row */
+.flexible-widget-area.per-row-2 .widget {
+    width: 50%;
+}
+.flexible-widget-area.per-row-2 .widget:nth-of-type(2n+1) {
+	clear: left;
+	padding-left: 0;
+}
+.flexible-widget-area.per-row-2 .widget:nth-of-type(2n) {
+	padding-right: 0;
+}
+/* Three per row */
+.flexible-widget-area.per-row-3 .widget {
+    width: 33.33333%;
+}
+.flexible-widget-area.per-row-3 .widget:nth-of-type(3n+1) {
+	clear: left;
+	padding-left: 0;
+}
+.flexible-widget-area.per-row-3 .widget:nth-of-type(3n) {
+	padding-right: 0;
+}
+/* Four per row */
+.flexible-widget-area.per-row-4 .widget {
+    width: 25%;
+}
+.flexible-widget-area.per-row-4 .widget:nth-of-type(4n+1) {
+	clear: left;
+	padding-left: 0;
+}
+.flexible-widget-area.per-row-4 .widget:nth-of-type(4n) {
+	padding-right: 0;
+}
+
+@media (max-width: 999px) {
+      .site-title {
+		font-size: 50px;
+		padding: 0 0 0 2%!important;
+}
+     .site-description {
+	  font-size: 20px!important;
+	  top: 118px!important;
+	  padding: 0 0 0 2%!important;
+}
+
+	 .flexible-widget-area.per-row-2 .widget:nth-of-type(1n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(2n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(1n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(2n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(3n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(1n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(2n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(3n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+	.flexible-widget-area.per-row-4 .widget:nth-of-type(4n+1) {
+		max-width: 940px;
+		padding: 0;
+		width: 100%;
+
+}
+
+}
+
+@media (max-width: 767px) {
+      .site-title {
+		font-size: 50px;
+		padding: 0 0 0 2%!important;
+}
+     .site-description {
+	  font-size: 20px!important;
+	  top: 118px!important;
+	  padding: 0 0 0 2%!important;
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(1n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(2n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(1n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(2n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(3n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(1n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(2n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(3n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+	.flexible-widget-area.per-row-4 .widget:nth-of-type(4n+1) {
+		max-width: 730px;
+		padding: 0;
+		width: 100%;
+
+}
+
+}
+
+@media (max-width: 643px) {
+      .site-title {
+		font-size: 40px;
+		padding: 0 0 0 3%!important;
+		max-width: 440px!important;
+}
+     .site-description {
+	  font-size: 18px!important;
+	  top: 138px!important;
+	  padding: 0 0 0 3%!important;
+	  max-width: 440px!important;
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(1n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(2n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(1n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(2n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(3n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(1n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(2n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(3n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+	.flexible-widget-area.per-row-4 .widget:nth-of-type(4n+1) {
+		max-width: 620px;
+		padding: 0;
+		width: 100%;
+
+}
+
+}
+
+
+@media (max-width: 359px) {
+      .site-title {
+		font-size: 40px;
+		padding: 0 0 0 6%!important;
+		max-width: 250px!important;
+}
+     .site-description {
+	  font-size: 18px!important;
+	  top: 178px!important;
+	  padding: 0 0 0 6%!important;
+	  max-width: 250px!important;
+}
+
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(1n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-2 .widget:nth-of-type(2n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(1n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(2n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-3 .widget:nth-of-type(3n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(1n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(2n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+     .flexible-widget-area.per-row-4 .widget:nth-of-type(3n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+	.flexible-widget-area.per-row-4 .widget:nth-of-type(4n+1) {
+		max-width: 300px;
+		padding: 0;
+		width: 100%;
+
+}
+
+}
+.archive-title {
+display: none;
+} 
+.page-title {
+display: none;
+} 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  height: auto;
+    left: 0;
+    min-width: 1600px;
+    position: relative;
+    top: 0;
+    width: 100%;
+	left: 50%;
+    margin-left: -800px;
+  }
+.site-title {
+	top: 58px;  
+	margin: 0 auto; 
+	color: #141412; 
+	padding:0 0 0 12%; 
+	position: absolute; 
+	width: 1200px;
+} 
+.site-description {
+	top: 128px;  
+	margin: 0 auto;  
+	padding: 0 0 0 12%; 
+	position: absolute; 
+	width: 1200px;
+	color: #141412; 
+    font: italic 24px "Source Sans Pro", Helvetica, sans-serif;
+}
